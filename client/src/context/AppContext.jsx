@@ -6,7 +6,7 @@ export const AppContext = createContext();
 
 export const AppContextProvider = ({ children }) => {
   axios.defaults.withCredentials=true;
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl = https://auth-backend-89n3.onrender.com;
 
   const [isLoggedin, setIsLoggedin] = useState(false);
   const [userData, setUserData] = useState(null);
